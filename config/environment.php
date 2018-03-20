@@ -1,11 +1,9 @@
 <?php
 
 /*----------------------------------------------------*/
-// Define your environments
+// Define environment type
 /*----------------------------------------------------*/
-return array(
-
-    'local'         => 'your-local-hostname',
-    'production'    => 'your-production-hostname'
-
-);
+return [
+    'local' => 'INSERT-HOSTNAME',
+    'production' => 'INSERT-HOSTNAME'
+];

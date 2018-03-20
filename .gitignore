@@ -4,10 +4,13 @@ Thumbs.db
 
 ### Composer
 composer.lock
-/vendor/
+vendor/
 
 ### IDE
 .idea/
+
+### PHPCS
+cs_fixer*
 
 ### Wordpress
 /htdocs/cms/*
@@ -19,5 +22,6 @@ composer.lock
 
 
 ### Environment Credentials
-.env.*.php
-!.env.local.php
+.env
+.env.*
+!.env.local
